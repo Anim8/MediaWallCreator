@@ -45,7 +45,7 @@ public class GUI extends JFrame{
             // the Graphics object of the image.
             component.paint( image.getGraphics() );
             return image;
-            }
+    }
     
     
     	GUI(String windowName) {
@@ -123,7 +123,7 @@ public class GUI extends JFrame{
 	        
 	        //mainWin.add(new logoTemplate01());
 	        
-	        mainWin.getContentPane().setLayout(null);
+	        //mainWin.getContentPane().setLayout(null);
 	        mainWin.pack();
 	        mainWin.setVisible(true);
     }
